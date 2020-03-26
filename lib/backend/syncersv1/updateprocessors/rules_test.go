@@ -20,11 +20,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/mangqiqi/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
 )
 
 var _ = Describe("Test the Rules Conversion Functions", func() {

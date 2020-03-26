@@ -15,9 +15,9 @@
 package resources
 
 import (
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/net"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

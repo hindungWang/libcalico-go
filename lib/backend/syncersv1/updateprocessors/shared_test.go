@@ -3,11 +3,11 @@ package updateprocessors_test
 import (
 	"fmt"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	up "github.com/projectcalico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	up "github.com/mangqiqi/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
 )
 
 var srcSelector string = "mylabel == selector1"

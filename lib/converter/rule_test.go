@@ -15,14 +15,14 @@
 package converter_test
 
 import (
-	. "github.com/projectcalico/libcalico-go/lib/converter"
+	. "github.com/mangqiqi/libcalico-go/lib/converter"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	api "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 var (

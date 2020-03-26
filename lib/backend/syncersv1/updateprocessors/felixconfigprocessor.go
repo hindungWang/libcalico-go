@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"strings"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/watchersyncer"
 )
 
 // Create a new SyncerUpdateProcessor to sync FelixConfiguration data in v1 format for

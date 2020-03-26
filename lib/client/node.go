@@ -19,11 +19,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	api "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/errors"
+	"github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 // NodeInterface has methods to work with Node resources.

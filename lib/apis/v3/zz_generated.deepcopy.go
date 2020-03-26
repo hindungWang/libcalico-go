@@ -19,8 +19,8 @@
 package v3
 
 import (
-	apisv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	numorstring "github.com/projectcalico/libcalico-go/lib/numorstring"
+	apisv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	numorstring "github.com/mangqiqi/libcalico-go/lib/numorstring"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 )

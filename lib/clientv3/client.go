@@ -26,15 +26,15 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	v3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	bapi "github.com/projectcalico/libcalico-go/lib/backend/api"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/ipam"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	"github.com/projectcalico/libcalico-go/lib/set"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	v3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend"
+	bapi "github.com/mangqiqi/libcalico-go/lib/backend/api"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
+	"github.com/mangqiqi/libcalico-go/lib/ipam"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/options"
+	"github.com/mangqiqi/libcalico-go/lib/set"
 )
 
 // client implements the client.Interface.

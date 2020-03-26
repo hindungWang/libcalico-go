@@ -20,10 +20,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	apiv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	apiv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
 )
 
 // Profile implements the Converter interface.

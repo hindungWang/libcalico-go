@@ -26,8 +26,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/types"
 
-	v3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	v3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 // RawString is used a value type to indicate that the value is a bare non-JSON string
@@ -323,7 +323,7 @@ func ParseValue(key Key, rawData []byte) (interface{}, error) {
 		// Value: ""
 		// In 3.0.7 we added block affinity state as the value, so old "" value is no longer a valid JSON, so for that
 		// particular case we replace the "" with a "{}" so it can be parsed and we don't leak blocks after upgrade to Calico 3.0.7
-		// See: https://github.com/projectcalico/calico/issues/1956
+		// See: https://github.com/mangqiqi/calico/issues/1956
 		if bytes.Equal(rawData, []byte(``)) && valueType == typeBlockAff {
 			rawData = []byte(`{}`)
 			if err = json.Unmarshal(rawData, iface); err != nil {

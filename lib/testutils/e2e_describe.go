@@ -16,7 +16,7 @@ package testutils
 import (
 	"fmt"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
 
 	. "github.com/onsi/ginkgo"
 )

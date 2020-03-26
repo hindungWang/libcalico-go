@@ -21,11 +21,11 @@ import (
 
 	. "github.com/onsi/ginkgo/extensions/table"
 
-	apiv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/scope"
+	apiv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/scope"
 )
 
 var _ = DescribeTable("v1->v3 bgp peer conversion tests table (success)",

@@ -24,11 +24,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/api"
+	"github.com/mangqiqi/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
 
 	networkingv1 "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

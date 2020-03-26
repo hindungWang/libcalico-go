@@ -22,13 +22,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	validator "github.com/projectcalico/libcalico-go/lib/validator/v3"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/options"
+	validator "github.com/mangqiqi/libcalico-go/lib/validator/v3"
+	"github.com/mangqiqi/libcalico-go/lib/watch"
 )
 
 // IPPoolInterface has methods to work with IPPool resources.

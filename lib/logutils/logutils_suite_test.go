@@ -22,7 +22,7 @@ import (
 
 	"github.com/onsi/ginkgo/reporters"
 
-	"github.com/projectcalico/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
 )
 
 func TestLogutils(t *testing.T) {

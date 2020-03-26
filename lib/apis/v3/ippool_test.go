@@ -15,7 +15,7 @@
 package v3_test
 
 import (
-	. "github.com/projectcalico/libcalico-go/lib/apis/v3"
+	. "github.com/mangqiqi/libcalico-go/lib/apis/v3"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -15,11 +15,11 @@
 package client
 
 import (
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/converter"
-	"github.com/projectcalico/libcalico-go/lib/scope"
+	api "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/converter"
+	"github.com/mangqiqi/libcalico-go/lib/scope"
 )
 
 // BGPPeerInterface has methods to work with BGPPeer resources.

@@ -26,13 +26,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	"github.com/projectcalico/libcalico-go/lib/testutils"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/options"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/watch"
 )
 
 // Perform additional watch tests

@@ -15,9 +15,9 @@
 package converter
 
 import (
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	api "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
 )
 
 // PolicyConverter implements a set of functions used for converting between

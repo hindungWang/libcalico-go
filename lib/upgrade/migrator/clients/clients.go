@@ -23,15 +23,15 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/go-yaml-wrapper"
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/compat"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/etcdv2"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/k8s"
+	"github.com/mangqiqi/go-yaml-wrapper"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	apiv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/clientv3"
+	"github.com/mangqiqi/libcalico-go/lib/upgrade/migrator/clients/v1/compat"
+	"github.com/mangqiqi/libcalico-go/lib/upgrade/migrator/clients/v1/etcdv2"
+	"github.com/mangqiqi/libcalico-go/lib/upgrade/migrator/clients/v1/k8s"
 )
 
 const (

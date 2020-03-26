@@ -15,9 +15,9 @@
 package resources_test
 
 import (
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/k8s/resources"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/upgrade/migrator/clients/v1/k8s/resources"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -22,8 +22,8 @@ import (
 	"errors"
 	"os"
 
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/client"
+	api "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/client"
 )
 
 var _ = Describe("Client config tests", func() {

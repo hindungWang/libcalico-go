@@ -24,10 +24,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	v3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
+	v3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 // windwowsReservedHandle is the handle used to reserve addresses required for Windows

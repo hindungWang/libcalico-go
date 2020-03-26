@@ -23,9 +23,9 @@ import (
 
 	. "github.com/onsi/ginkgo/extensions/table"
 
-	apiv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	apiv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
 )
 
 var _ = DescribeTable("v1->v3 profile conversion tests table",

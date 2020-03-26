@@ -18,10 +18,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	"github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 // fakeconverter allows us to tune what is returned from the converter to test different

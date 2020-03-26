@@ -24,14 +24,14 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/go-yaml-wrapper"
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	bapi "github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	validator "github.com/projectcalico/libcalico-go/lib/validator/v1"
+	"github.com/mangqiqi/go-yaml-wrapper"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	api "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/mangqiqi/libcalico-go/lib/backend"
+	bapi "github.com/mangqiqi/libcalico-go/lib/backend/api"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	validator "github.com/mangqiqi/libcalico-go/lib/validator/v1"
 )
 
 // Client contains

@@ -15,7 +15,7 @@
 package v3
 
 import (
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
 )
 
 // PolicyType enumerates the possible values of the PolicySpec Types field.

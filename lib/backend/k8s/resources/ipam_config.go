@@ -24,10 +24,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/api"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
 )
 
 const (

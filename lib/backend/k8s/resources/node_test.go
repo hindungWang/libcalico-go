@@ -18,13 +18,13 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
 
 	k8sapi "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
 )
 
 var _ = Describe("Test Node conversion", func() {

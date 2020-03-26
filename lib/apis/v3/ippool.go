@@ -17,8 +17,8 @@ package v3
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	apiv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/selector"
+	apiv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	"github.com/mangqiqi/libcalico-go/lib/selector"
 )
 
 const (

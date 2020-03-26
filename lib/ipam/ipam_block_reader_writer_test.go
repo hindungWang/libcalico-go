@@ -25,14 +25,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	"github.com/mangqiqi/libcalico-go/lib/backend"
+	"github.com/mangqiqi/libcalico-go/lib/backend/api"
+	"github.com/mangqiqi/libcalico-go/lib/backend/k8s"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
 )
 
 func newFakeClient() *fakeClient {

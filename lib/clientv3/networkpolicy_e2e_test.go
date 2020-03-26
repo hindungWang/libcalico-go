@@ -22,18 +22,18 @@ import (
 	. "github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
 
 	"context"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	"github.com/projectcalico/libcalico-go/lib/testutils"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend"
+	"github.com/mangqiqi/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/mangqiqi/libcalico-go/lib/clientv3"
+	"github.com/mangqiqi/libcalico-go/lib/options"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/watch"
 )
 
 var _ = testutils.E2eDatastoreDescribe("NetworkPolicy tests", testutils.DatastoreAll, func(config apiconfig.CalicoAPIConfig) {

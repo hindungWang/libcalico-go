@@ -17,10 +17,10 @@ package v1
 import (
 	"fmt"
 
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/scope"
+	"github.com/mangqiqi/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/scope"
 )
 
 // BGPPeer contains information about a BGP peer resource that is a peer of a Calico

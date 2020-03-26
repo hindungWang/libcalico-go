@@ -21,22 +21,22 @@ import (
 	"sync"
 	"time"
 
-	"github.com/projectcalico/libcalico-go/lib/names"
+	"github.com/mangqiqi/libcalico-go/lib/names"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/syncersv1/felixsyncer"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/backend/syncersv1/felixsyncer"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/api"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
 
 	k8sapi "k8s.io/api/core/v1"
 	networkingv1 "k8s.io/api/networking/v1"

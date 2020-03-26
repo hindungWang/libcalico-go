@@ -24,9 +24,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/converters"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/upgrade/converters"
 )
 
 // Query the v1 format of GlobalConfigList and convert to the v3 format of
@@ -277,7 +277,7 @@ func (m *migrationHelper) parseFelixConfigV1IntoResourceV3(
 			logCxt.Info("Unhandle field type")
 			data.ConversionErrors = append(data.ConversionErrors, ConversionError{
 				Cause: fmt.Errorf("unhandled field type, please raise an issue on GitHub " +
-					"(https://github.com/projectcalico/calico) that includes this error message"),
+					"(https://github.com/mangqiqi/calico) that includes this error message"),
 				KeyV1:   keysv1[configName],
 				ValueV1: configStrValue,
 				KeyV3:   resourceToKey(res),

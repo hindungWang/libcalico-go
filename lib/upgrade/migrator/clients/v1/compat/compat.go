@@ -19,11 +19,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/etcdv2"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/errors"
+	"github.com/mangqiqi/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/upgrade/migrator/clients/v1/etcdv2"
 )
 
 type ModelAdaptor struct {
@@ -124,7 +124,7 @@ func (c *ModelAdaptor) getProfile(k model.Key) (*model.KVPair, error) {
 
 // getBlock gets KVPair for Block. It gets the block value first,
 // then checks for `Affinity` field first, then `HostAffinity` as a backup.
-// For more details see: https://github.com/projectcalico/libcalico-go/issues/226
+// For more details see: https://github.com/mangqiqi/libcalico-go/issues/226
 func (c *ModelAdaptor) getBlock(k model.Key) (*model.KVPair, error) {
 	bk := k.(model.BlockKey)
 

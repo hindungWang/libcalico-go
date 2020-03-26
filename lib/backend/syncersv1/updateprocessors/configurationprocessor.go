@@ -24,9 +24,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/watchersyncer"
+	cerrors "github.com/mangqiqi/libcalico-go/lib/errors"
 )
 
 const (
