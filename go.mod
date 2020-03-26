@@ -1,4 +1,4 @@
-module github.com/mangoqiqi/libcalico-go/v3
+module github.com/mangoqiqi/libcalico-go
 
 go 1.12
 
