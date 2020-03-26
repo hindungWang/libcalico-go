@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	yaml "github.com/projectcalico/go-yaml-wrapper"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
 )
 
 // LoadClientConfig loads the ClientConfig from the specified file (if specified)

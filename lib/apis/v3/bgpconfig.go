@@ -17,7 +17,7 @@ package v3
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
 )
 
 const (

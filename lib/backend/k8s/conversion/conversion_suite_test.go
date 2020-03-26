@@ -18,7 +18,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
 
 	"testing"
 

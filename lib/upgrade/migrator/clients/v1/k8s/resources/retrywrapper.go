@@ -15,7 +15,7 @@
 package resources
 
 import (
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
 
 	log "github.com/sirupsen/logrus"
 )

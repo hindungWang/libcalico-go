@@ -24,14 +24,14 @@ import (
 
 	"context"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	"github.com/projectcalico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	"github.com/projectcalico/libcalico-go/lib/testutils"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	"github.com/mangqiqi/libcalico-go/lib/apiconfig"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend"
+	"github.com/mangqiqi/libcalico-go/lib/clientv3"
+	"github.com/mangqiqi/libcalico-go/lib/numorstring"
+	"github.com/mangqiqi/libcalico-go/lib/options"
+	"github.com/mangqiqi/libcalico-go/lib/testutils"
+	"github.com/mangqiqi/libcalico-go/lib/watch"
 )
 
 var _ = testutils.E2eDatastoreDescribe("BGPConfiguration tests", testutils.DatastoreAll, func(config apiconfig.CalicoAPIConfig) {

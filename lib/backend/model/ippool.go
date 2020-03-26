@@ -23,9 +23,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/encap"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	"github.com/mangqiqi/libcalico-go/lib/backend/encap"
+	"github.com/mangqiqi/libcalico-go/lib/errors"
+	"github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 var (

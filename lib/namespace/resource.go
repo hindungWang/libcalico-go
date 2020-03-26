@@ -14,7 +14,7 @@
 
 package namespace
 
-import apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
+import apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
 
 func IsNamespaced(kind string) bool {
 	switch kind {

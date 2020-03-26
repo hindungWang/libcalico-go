@@ -15,14 +15,14 @@
 package v3_test
 
 import (
-	. "github.com/projectcalico/libcalico-go/lib/apis/v3"
+	. "github.com/mangqiqi/libcalico-go/lib/apis/v3"
 
 	"reflect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/libcalico-go/lib/set"
+	"github.com/mangqiqi/libcalico-go/lib/set"
 )
 
 var (

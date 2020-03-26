@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/libcalico-go/lib/health"
+	"github.com/mangqiqi/libcalico-go/lib/health"
 )
 
 const (

@@ -20,11 +20,11 @@ import (
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	apiv1 "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/encap"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
+	apiv1 "github.com/mangqiqi/libcalico-go/lib/apis/v1"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/encap"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 var poolTable = []TableEntry{

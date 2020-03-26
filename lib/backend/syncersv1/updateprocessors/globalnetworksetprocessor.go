@@ -19,10 +19,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
+	apiv3 "github.com/mangqiqi/libcalico-go/lib/apis/v3"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/watchersyncer"
+	cnet "github.com/mangqiqi/libcalico-go/lib/net"
 )
 
 // Create a new SyncerUpdateProcessor to sync GlobalNetworkSet data in v1 format for

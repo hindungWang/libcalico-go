@@ -20,7 +20,7 @@ import (
 
 	"context"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	"github.com/mangqiqi/libcalico-go/lib/backend/model"
 )
 
 // SyncStatus represents the overall state of the datastore.

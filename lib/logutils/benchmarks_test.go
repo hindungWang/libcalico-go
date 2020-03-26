@@ -26,7 +26,7 @@ var result bool
 func BenchmarkShouldSkipFrame(b *testing.B) {
 	var r bool
 	for n := 0; n < b.N; n++ {
-		r = shouldSkipFrame(runtime.Frame{File: "/home/ubuntu/go/src/github.com/projectcalico/libcalico-go/lib/foo/bar.go"})
+		r = shouldSkipFrame(runtime.Frame{File: "/home/ubuntu/go/src/github.com/mangqiqi/libcalico-go/lib/foo/bar.go"})
 	}
 	result = r
 }
